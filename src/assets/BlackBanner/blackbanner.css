@@ -1,0 +1,17 @@
+.blackbanner{
+    background: #262626 url(//www.zohowebstatic.com/sites/zweb/images/crm/zcrm-multichanel-bg.svg) no-repeat;
+    background-position: center bottom;
+    background-size: auto 600px;
+    /* height: 100vh; */
+    /* width: 80%; */
+    
+}
+.blackbanner-text{
+    /* width: 400px; */
+}
+.banner{
+    width: 900px;
+    background-color:rgb(246, 244, 244);
+    height: auto;
+    border-radius: 50px;
+}

@@ -1,0 +1,29 @@
+.home{
+    background-color: #2962ff;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white !important;
+    flex-wrap: wrap;
+    padding: 3rem;
+    gap: 3rem;
+    
+    
+}
+.left-text-container{
+    max-width: 48%;
+    /* width: 500px; */
+}
+
+.right-input-comtainer{
+   /* max-width: 30%; */
+   width: 400px;
+   padding: 2rem;
+
+}
+.mid{
+    -webkit-text-stroke: 1px #fff;
+    color: #2962ff;
+    display: block;
+}
