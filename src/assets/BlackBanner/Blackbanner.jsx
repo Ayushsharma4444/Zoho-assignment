@@ -18,8 +18,8 @@ const Blackbanner = () => {
                 <span>Winner with the highest score<br/> in CRM Watchlist 2022</span>
             </div>
         </div>
-        <hr/>
-        <div className="flex justify-center  ml-10">
+        <hr className="mb-4"/>
+        <div className="flex justify-center  ml-10 ">
           <div>
             <img 
                 src="https://cdn.iconscout.com/icon/free/png-256/free-ola-282225.png?f=webp"
@@ -63,7 +63,7 @@ const Blackbanner = () => {
           <small className="text-5xl font-bold">
             Build Great Customer <br /> RelationShip
           </small>
-          <span className="px-16 py-8">
+          <span className="px-2 py-8">
             Providing personalized experiences is what keeps customers around,
             and Zoho CRM can help <br/>you do just that. With the power of
             omnichannel presence, segmentation, predictive<br/> intelligence, and
@@ -76,18 +76,18 @@ const Blackbanner = () => {
       {/* lower <section></section> */}
 
       <div className="w-full flex justify-center">
-        <div className="flex flex-start w-7/12  items-end justify-center">
+        <div className="flex flex-start w-11/12  items-end justify-center">
           <img
             src="https://www.zohowebstatic.com/sites/zweb/images/crm/zcrm-melinda-calling.svg"
-            className=" w-6/12 relative bottom-10"
+            className=" w-4/12 relative bottom-10"
           />
           <img
             src="https://www.zohowebstatic.com/sites/zweb/images/crm/zcrm-multichanel-man-1x.webp"
-            className="w-10/12    relative"
+            className="w-7/12    relative"
           />
           <img
             src="https://www.zohowebstatic.com/sites/zweb/images/crm/zcrm-twitter-reply.svg"
-            className="w-7/12 relative right-10 bottom-36 "
+            className="w-5/12 relative right-8 bottom-16 "
           />
         </div>
       </div>

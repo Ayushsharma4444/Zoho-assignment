@@ -7,6 +7,7 @@ import Home from './assets/Home/Home'
 import Blackbanner from './assets/BlackBanner/Blackbanner'
 import Footer from './assets/Footer/Footer'
 import Productivity from './assets/productivity/Productivity'
+import Deep from './assets/Deep/Deep'
 
 export function App() {
   // const [count, setCount] = useState(0)
@@ -17,7 +18,8 @@ export function App() {
      <Home/>
      <Blackbanner/>
      <Productivity/>
-     {/* <Footer/> */}
+     <Deep/>
+     <Footer/>
     </>
   )
 }

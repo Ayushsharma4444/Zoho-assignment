@@ -3,7 +3,7 @@ import React from "react";
 const Navbar2 = () => {
   return (
     <div>
-      <nav class="border-gray-200 dark:bg-gray-900 dark:border-gray-700 relative top-20" style={{backgroundColor:"#2962ff"}}>
+      <nav class="border-gray-200 dark:bg-gray-900 dark:border-gray-700 relative " style={{backgroundColor:"#2962ff"}}>
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="#" class="flex items-center text-2xl">
             <img
@@ -42,10 +42,19 @@ const Navbar2 = () => {
               <li>
                 <a
                   href="#"
-                  class="text-white block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent"
+                  class="text-white block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-white-700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent"
                   aria-current="page"
                 >
-                  Home
+                  Features
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-white block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-white -700 md:p-0 md:dark:text-blue-500 dark:bg-blue-600 md:dark:bg-transparent"
+                  aria-current="page"
+                >
+                  Pricing
                 </a>
               </li>
               <li>
@@ -54,7 +63,7 @@ const Navbar2 = () => {
                   data-dropdown-toggle="dropdownNavbar"
                   class="text-white flex items-center justify-between w-full py-2 pl-3 pr-4  text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
                 >
-                  Dropdown{" "}
+                  Solution{" "}
                   <svg
                     class="w-2.5 h-2.5 ml-2.5"
                     aria-hidden="true"
@@ -85,7 +94,7 @@ const Navbar2 = () => {
                         href="#"
                         class="text-white block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
                       >
-                        Dashboard
+                        Customer
                       </a>
                     </li>
                     <li aria-labelledby="dropdownNavbarLink">
@@ -188,7 +197,7 @@ const Navbar2 = () => {
                   href="#"
                   class="text-white block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
-                  Pricing
+                  Resources
                 </a>
               </li>
               <li>
@@ -196,7 +205,7 @@ const Navbar2 = () => {
                   href="#"
                   class=" text-white block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >
-                  Contact
+                  Solution
                 </a>
               </li>
             </ul>

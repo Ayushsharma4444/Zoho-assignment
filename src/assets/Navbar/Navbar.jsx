@@ -3,12 +3,12 @@ import React from "react";
 const Navbar = () => {
   return (
     <div>
-      <nav class="bg-white border-gray-200 dark:bg-gray-900 fixed w-full">
-        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-          <a href="https://flowbite.com/" class="flex items-center ">
+      <nav class="bg-white border-gray-200 dark:bg-gray-900  w-full">
+        <div class=" flex flex-wrap items-center justify-start mx-5 ">
+          <a href="" class="flex items-left justify-start ">
             <img
               src="https://brandfetch.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fbrandfetch%2F8059bd5b-5068-4da4-a520-5cc433d595da_4.png%3Fauto%3Dcompress%2Cformat&w=640&q=75"
-              class="h-8 mr-3"
+              class="h-15 w-40 "
               alt="Flowbite Logo"
             />
             {/* <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
@@ -241,18 +241,18 @@ const Navbar = () => {
             </button>
           </div>
           <div
-            class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+            class="items-center justify-start hidden w-full md:flex md:w-auto md:order-1"
             id="navbar-language"
           >
-            <ul class="flex flex-col font-small p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <ul class="flex justify-start flex-col font-small p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
               <li>
                 <a
                   href="#"
-                  class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
+                  class="ml-8 block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-black md:p-0 md:dark:text-blue-500"
                   aria-current="page"
                   
                 >
-                  Home
+                  Begin
                 </a>
               </li>
               <li>
@@ -260,7 +260,7 @@ const Navbar = () => {
                   href="#"
                   class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >
-                  About
+                  CRM Plus 
                 </a>
               </li>
               <li>
@@ -268,7 +268,7 @@ const Navbar = () => {
                   href="#"
                   class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >
-                  Services
+                  Desk
                 </a>
               </li>
               <li>
@@ -276,7 +276,7 @@ const Navbar = () => {
                   href="#"
                   class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >
-                  Pricing
+                  Compaigns
                 </a>
               </li>
               <li>
@@ -284,7 +284,15 @@ const Navbar = () => {
                   href="#"
                   class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                 >
-                  Contact
+                  Survey
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                >
+                  Team Boxes
                 </a>
               </li>
             </ul>
