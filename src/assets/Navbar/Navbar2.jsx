@@ -3,7 +3,7 @@ import React from "react";
 const Navbar2 = () => {
   return (
     <div>
-      <nav class="border-gray-200 dark:bg-gray-900 dark:border-gray-700 " style={{backgroundColor:"#2962ff"}}>
+      <nav class="border-gray-200 dark:bg-gray-900 dark:border-gray-700 relative top-20" style={{backgroundColor:"#2962ff"}}>
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="#" class="flex items-center text-2xl">
             <img

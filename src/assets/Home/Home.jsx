@@ -8,7 +8,7 @@ const Home = () => {
     <div className="home py-48">
       <div className="left-text-container">
         <div className="flex items-center justify-center" >
-        <div className="flex flex-col">
+        <div className="flex flex-col p-4">
           <span className="text-7xl font-extrabold">THE WORLD'S<br/> FAVORITE CRM.<br/><small className="mid text-7xl "> MADE IN INDIA.</small></span>
           <small className="text-base">
             Who said world-class software can only be built in Silicon Valley?

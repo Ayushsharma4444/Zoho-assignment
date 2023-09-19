@@ -17,7 +17,7 @@ export function App() {
      <Home/>
      <Blackbanner/>
      <Productivity/>
-     <Footer/>
+     {/* <Footer/> */}
     </>
   )
 }

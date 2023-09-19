@@ -4,6 +4,10 @@
 :root{
   color: white;
 }
+
+.productivity{
+  background-color: #f4f0ea;
+}
 /* :root { */
   /* font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
