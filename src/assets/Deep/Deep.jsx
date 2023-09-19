@@ -24,7 +24,7 @@ const Deep = () => {
         </div>
       </div><br/>
       {/* lower section */}
-      <div className="w-9/12 flex justify-center flex-col items-center m-auto mt-5 p-4">
+      <div className="w-9/12 flex justify-center flex-col items-center m-auto mt-20 p-4">
             <div className=" flex gap-4 w-full m-5 justify-center" >
                 <img
                     src="https://www.zohowebstatic.com/sites/zweb/images/crm/zcrm-individual_target.svg"
